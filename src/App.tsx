@@ -58,8 +58,8 @@ export default function App() {
         <animated.div
           style={props}
           onClick={() => {
-            setSprings(ind => {
-              if (index === ind) return { opacity: 0 };
+            setSprings(index1 => {
+              if (index === index1) return { opacity: 0 };
             });
           }}
         >
